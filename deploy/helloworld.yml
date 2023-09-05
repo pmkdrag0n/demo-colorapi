@@ -47,7 +47,7 @@ metadata:
   namespace: demo-concourse-flux
   name: helloworld
   annotations:
-    kubernetes.io/ingress.class: traefik
+    kubernetes.io/ingress.class: contour
 spec:
   rules:
   - host: demo-concourse-flux.particule.io
